@@ -17,5 +17,13 @@ public class Dog {
 		}
 	
 	}
+	/* Returns the larger Dog */
+	public static Dog MaxDog(Dog d1, Dog d2){
+		if(d1.size > d2.size)
+			return d1;
+		else
+			return d2;
+		
+	}
 
 }
